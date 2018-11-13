@@ -1,0 +1,25 @@
+.jd_tips {
+  height: 34px;
+  border-top: 1px solid @bdColor;
+  border-bottom: 1px solid @bdColor;
+  text-align: center;
+  background-color: #fff;
+
+  p {
+    line-height: 32px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    &::after {
+      content: '';
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      background-image: url(../images/safe_icon.png);
+      background-size: contain;
+      top: 7px;
+      left: 9px;
+    }
+  }
+}
